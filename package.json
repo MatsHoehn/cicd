@@ -8,6 +8,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint ."
+    "test": "mocha"
   },
   "dependencies": {
     "@fakerjs/animal": "^2.2.0",
