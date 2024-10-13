@@ -7,8 +7,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha tests/*.spec.js"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@fakerjs/animal": "^2.2.0",
