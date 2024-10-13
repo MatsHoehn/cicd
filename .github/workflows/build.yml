@@ -18,8 +18,8 @@ jobs:
         run: yarn install
       - name: Lint the project
         run: yarn lint --fix
-      - name: run tests
-	run: yarn test
+      - name: Run tests
+        run: yarn test
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
